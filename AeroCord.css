@@ -629,28 +629,35 @@ transform 220ms cubic-bezier(.2,.8,.2,1),
 }
 
 /* profile menu */
-.c0bea05627c5dc35-outer,
-.user-profile-popout,
-.ce832809562bf737-themeContainer {
+/* broken */
+/* .layer__59d0d,
+.animatorTop_faf9c0,
+.fade_faf9c0,
+.didRender_faf9c0,
+.popoutContainer_ce8328,
+.outer_c0bea0,
+.themeContainer_ce8328 {
   background-color: transparent !important;
   background: none !important;
   backdrop-filter: blur(200px);
 }
-.c0bea05627c5dc35-overlay, .ce832809562bf737-menuOverlay {
+
+.themeContainer_ce8328 {
   text-shadow: 0 1px 1px #112ae7 !important;
   background-color: #4452d8 !important;
   border: 1px solid #4356ff !important;
-}
+} */
 
 /* message box */
-.f75fb00fb7356cbe-channelBottomBarArea,
-.f75fb00fb7356cbe-channelTextArea,
-._740174f3d6a2c8fe-channelTextArea,
-._740174f3d6a2c8fe-scrollableContainer, 
-._740174f3d6a2c8fe-themedBackground {
+/* applies to stable 488579 (28327b1) */
+.channelTextArea__74017,
+.themedBackground__74017 {
   background-color: transparent !important;
   background: none !important;
   backdrop-filter: blur(200px);
+}
+.chatGradient__36d07, .chatGradientBase__36d07 {
+  display: none !important;
 }
 
 /* invite to server modal (more dark aero for some reason, seems to be an Electron quirk)*/
