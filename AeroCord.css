@@ -474,15 +474,7 @@
 
 
 /* this is the servers list on the left */
-.sidebar__5e434,
-.wrapper_ef3116,
-.guilds__5e434,
-.sidebarList__5e434,
-.sidebarListRounded__5e434,
-.scroller__629e4,
-.thin_d125d2,
-.scrollerBase_d125d2,
-.content_d125d2 {
+.guilds__5e434 {
   background-color: transparent !important;
   background: none !important;
 }
@@ -520,7 +512,7 @@
   }
 
 /* mic/hp/settings button theming */
-._37e49614b9f110a9-micButtonParent, ._67645e1530f1195d-button{
+.micButtonParent__37e49, .button__67645{
  display: flex;
   justify-content: center;
   align-items: center;
