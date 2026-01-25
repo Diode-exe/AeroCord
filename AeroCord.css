@@ -587,13 +587,15 @@ because it changes on hover */
 /* members list on right side */
 /* applies to stable 488579 (28327b1) */
 .container_c8ffbb,
-.members_c8ffbb {
+.members_c8ffbb,
+.clickable__91a9d {
   background-color: transparent !important;
   background: none !important;
 }
 
 /* profile pictures in chat */
-.c19a557985eb7793-avatar {
+/* applies to stable 488579 (28327b1) */
+.avatar_c19a55 {
   border-radius: 0px;
 }
 .c19a557985eb7793-avatar {
