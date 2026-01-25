@@ -458,11 +458,13 @@
 }
 
  /* Main container need to make others transparent and themed (I think, I don't know, this is stolen from the broken stuff - Diode-exe) */
-.a3002d7de5be5280-appAsidePanelWrapper,
-.a3002d7de5be5280-notAppAsidePanel, 
-.a3002d7de5be5280-app, 
-._960e4207cea8323e-bg, 
-._960e4207cea8323e-layer, 
+.appMount__51fd7,
+.bar_c38106,
+.systemBar_c38106,
+.fixed_c38106, 
+.appAsidePanelWrapper_a3002d, 
+.notAppAsidePanel_a3002d, 
+.app_a3002d, 
 ._960e4207cea8323e-baseLayer, 
 ._5e434347c823b592-container, 
 ._5e434347c823b592-base, 
