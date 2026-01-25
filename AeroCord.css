@@ -473,17 +473,24 @@
 } 
 
 
-/* this is the servers list on the left as well as the channels list next to it */
-._5e434347c823b592-guilds,
-._5e434347c823b592-sidebarList,
-._2637a2609f343032-container {
+/* this is the servers list on the left*/
+.sidebar__5e434,
+.wrapper_ef3116,
+.guilds__5e434,
+.sidebarList__5e434,
+.sidebarListRounded__5e434,
+.scroller__629e4,
+.thin_d125d2,
+.scrollerBase_d125d2,
+.content_d125d2 {
   background-color: transparent !important;
   background: none !important;
 }
 
 /* this will make the server icons jump up when hovered on */
 /* .e5445cbd3ad226f2-blobContainer:hover, */
-.cc5dd25190031396-wrapper:hover {
+.blobContainer_e5445c:hover,
+.wrapper_cc5dd2:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 24px rgba(188, 133, 255, 0.5);
 }
