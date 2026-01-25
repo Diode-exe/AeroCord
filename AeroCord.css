@@ -458,6 +458,7 @@
 }
 
  /* Main container need to make others transparent and themed (I think, I don't know, this is stolen from the broken stuff - Diode-exe) */
+ /* applies to stable 488579 (28327b1) */
 .appMount__51fd7,
 .bar_c38106,
 .systemBar_c38106,
@@ -474,6 +475,7 @@
 
 
 /* this is the servers list on the left */
+/* applies to stable 488579 (28327b1) */
 .guilds__5e434 {
   background-color: transparent !important;
   background: none !important;
@@ -481,6 +483,7 @@
 
 /* this will make the server icons jump up when hovered on */
 /* .e5445cbd3ad226f2-blobContainer:hover, */
+/* applies to stable 488579 (28327b1) */
 .blobContainer_e5445c:hover,
 .wrapper_cc5dd2:hover {
   transform: translateY(-2px);
@@ -488,6 +491,7 @@
 }
 
 /* this is the avatar and mute/deafen/settings button element */
+/* applies to stable 488579 (28327b1) */
 .panels__5e434 {
     background-color: rgba(57, 38, 96, 0.3);
     backdrop-filter: blur(5px);        
@@ -496,6 +500,7 @@
 }
 
 /* makes the avatar element buttons jump on hover, mic/mute, hp/defean, gear/stngs respectively */
+/* applies to stable 488579 (28327b1) */
   .micButtonParent__37e49:hover {
     transition: 0.2s;
     transform: translateY(-3px);
@@ -512,6 +517,7 @@
   }
 
 /* mic/hp/settings button theming */
+/* applies to stable 488579 (28327b1) */
 .micButtonParent__37e49, .button__67645{
  display: flex;
   justify-content: center;
