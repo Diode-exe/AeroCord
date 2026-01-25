@@ -543,7 +543,8 @@ because it changes on hover */
 } */
 
 /* these are the buttons at the top right, pinned msgs, threads, etc */
-._9293f6b2fc12398a-iconWrapper, ._9293f6b2fc12398a-clickable, ._9293f6b2fc12398a-selected, .c99c29809d200a61-clickable {
+/* applies to stable 488579 (28327b1) */
+.iconWrapper__9293f {
   display: flex;
   justify-content: center;
   align-items: center;
