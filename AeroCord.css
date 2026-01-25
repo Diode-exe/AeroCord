@@ -473,7 +473,7 @@
 } 
 
 
-/* this is the servers list on the left*/
+/* this is the servers list on the left */
 .sidebar__5e434,
 .wrapper_ef3116,
 .guilds__5e434,
@@ -496,7 +496,7 @@
 }
 
 /* this is the avatar and mute/deafen/settings button element */
-._5e434347c823b592-panels {
+.panels__5e434 {
     background-color: rgba(57, 38, 96, 0.3);
     backdrop-filter: blur(5px);        
     -webkit-backdrop-filter: blur(10px);                   
@@ -504,17 +504,17 @@
 }
 
 /* makes the avatar element buttons jump on hover, mic/mute, hp/defean, gear/stngs respectively */
-  ._37e49614b9f110a9-micButtonParent:hover {
+  .micButtonParent__37e49:hover {
     transition: 0.2s;
     transform: translateY(-3px);
   }
 
-  ._37e49614b9f110a9-micButtonParent:hover {
+  .micButtonParent__37e49:hover {
     transition: 0.2s;
     transform: translateY(-3px);
   }
 
-  ._67645e1530f1195d-button:hover {
+  .button__67645:hover {
     transition: 0.2s;
     transform: translateY(-3px);
   }
