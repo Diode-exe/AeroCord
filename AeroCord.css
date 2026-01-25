@@ -598,13 +598,13 @@ because it changes on hover */
 .avatar_c19a55 {
   border-radius: 0px;
 }
-.c19a557985eb7793-avatar {
+.avatar_c19a55 {
   transition:
 transform 220ms cubic-bezier(.2,.8,.2,1),
     box-shadow 220ms cubic-bezier(.2,.8,.2,1),
     backdrop-filter 220ms ease;
 }
-.c19a557985eb7793-avatar:hover {
+.avatar_c19a55:hover {
   transform: translateY(-2px);
   box-shadow:
   0 8px 24px rgba(188, 133, 255, 0.717),
@@ -612,19 +612,17 @@ transform 220ms cubic-bezier(.2,.8,.2,1),
 }
 
 /* message context menu hover */
-._5126c0cd07f243a0-buttons,
-._040f07d21e1fb0d6-container,
-._040f07d21e1fb0d6-isHeader,
-._5126c0cd07f243a0-buttonsInner,
-.f84418acfdbdfe54-popover,
-.f7ecaca5c80dbf3a-wrapper {
+/* applies to stable 488579 (28327b1) */
+.wrapper_f7ecac {
   background-color: transparent !important;
   background: none !important;
   backdrop-filter: blur(5px);  
 }
 
 /* extended message context menu (three dots menu) */
-._59d0d7075b521375-layer, .c1e9c47c23f12ca3-menu, .c1e9c47c23f12ca3-flexible {
+/* applies to stable 488579 (28327b1) */
+.menu_c1e9c4, 
+.flexible_c1e9c4 {
   background-color: transparent !important;
   background: none !important;
   backdrop-filter: blur(20px);  
