@@ -593,3 +593,14 @@ transform 220ms cubic-bezier(.2,.8,.2,1),
   background: #34428e !important;
   color: #34428e;
 }
+
+/* vencord notifications */
+.vc-notification-root {
+  background-color: #34428e !important;
+} 
+
+/* channels list */
+.container__2637a {
+  background-color: transparent !important;
+  background: none !important; 
+} 
